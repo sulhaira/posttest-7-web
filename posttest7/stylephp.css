@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredericka the Great', cursive;
+    background-color: #8FBC8F;
+}
+
+header {
+    color: #08596A;
+    padding: 30px 0px;
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 40px;
+}
+
+.form-class {
+    width: 50%;
+    margin: auto;
+    /* text-align: ; */
+    color: #08596A;
+}
+
+h2 {
+    color: #08596A;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+    border-bottom: black solid;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: #08596A;
+}
+
+label {
+    font-size: larger;
+}
+
+.form-text {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px 20px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid black;
+}
+
+.btn-submit {
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 350px;
+    font-size: larger;
+    font-family: 'Fredericka the Great', cursive;
+    border-style: none;
+    border-radius: 25px;
+    background-color: #08596A;
+    color: black;
+}
+
+.btn-submit:hover {
+    background-color: #08596A;
+}
+
+textarea {
+    margin-top: 20px;
+}
+
+
+/* ----------- Tampil.php ----------- */
+
+.list-table {
+    width: 50%;
+    margin: auto;
+}
+
+.tambah {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #08596A;
+    color: white;
+}
+
+.tambah:hover {
+    background-color: black;
+}
+
+table {
+    margin-top: 30px;
+}
+
+.thead {
+    border: 2px solid #08596A;
+    background-color: white;
+    color: #08596A;
+}
+
+td,
+th {
+    padding: 15px 20px;
+}
+
+th {
+    border: 1px solid #08596A;
+    padding: 0px, 50px, 0px, 50px;
+}
+
+td {
+    border: 1px solid #08596A;
+}
+
+table a {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.edit a {
+    background-color: transparent;
+    color: orange;
+}
+
+.hapus a {
+    background-color: transparent;
+    color: red;
+}
+
+.edit a:hover {
+    background-color: rgb(223, 145, 0);
+}
+
+.hapus a:hover {
+    background-color: rgb(179, 0, 0);
+}
+
+.alamat {
+    padding-right: 200px;
+    margin-top: 30px;
+}
+
+.pict {
+    padding-right: 300px;
+    margin-top: 30px;
+}
